@@ -1,0 +1,73 @@
+＃https://www.toptal.com/developers/gitignore/api/unityにより作成
+＃https://www.toptal.com/developers/gitignore?templates=unityで編集
+
+### Unity ###
+＃この.gitignoreファイルはUnityプロジェクトディレクトリのルートに配置する必要があります
+＃
+＃https://github.com/github/gitignore/blob/master/Unity.gitignoreから最新情報を取得
+/ [Ll]ライブラリ/
+/ [Tt] emp /
+/ [Oo] bj /
+/ [Bb] uild /
+/ [Bb] uilds /
+/ [Ll] ogs /
+/ [Uu] ser [Ss] ettings /
+
+＃MemoryCapturesのサイズが過剰になる可能性があります。
+＃非常に機密性の高いデータが含まれている可能性もあります
+/ [Mm] emoryCaptures /
+
+＃アセットのメタデータは、対応するアセットも無視されている場合にのみ無視する必要があります
+！/ [Aa] ssets / ** / *。meta
+
+＃アセットストアツールプラグインを無視する場合は、この行のコメントを外します
+＃/ [Aa] ssets / AssetStoreTools *
+
+＃自動生成されたJetbrains Riderプラグイン
+/ [Aa] ssets / Plugins / Editor / JetBrains *
+
+＃Visual Studioキャッシュディレクトリ
+.vs /
+
+＃Gradleキャッシュディレクトリ
+.gradle /
+
+＃自動生成されたVS / MD / Consuloソリューションおよびプロジェクトファイル
+ExportedObj /
+.consulo /
+* .csproj
+* .unityproj
+* .sln
+* .suo
+* .tmp
+*。ユーザー
+* .userprefs
+* .pidb
+* .booproj
+* .svd
+* .pdb
+* .mdb
+* .opendb
+* .VC.db
+
+＃Unity3Dで生成されたメタファイル
+* .pidb.meta
+* .pdb.meta
+* .mdb.meta
+
+＃クラッシュレポートで生成されたUnity3Dファイル
+sysinfo.txt
+
+＃ビルド
+* .apk
+* .unitypackage
+
+＃Crashlyticsが生成したファイル
+crashlytics-build.properties
+
+＃自動生成されたファイル
+InitTestScene * .unity.meta
+InitTestScene * .unity
+
+
+＃https://www.toptal.com/developers/gitignore/api/unityの終わり
