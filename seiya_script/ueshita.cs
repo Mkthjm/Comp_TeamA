@@ -20,6 +20,6 @@ public class ueshita : MonoBehaviour
 
         if (mv.InArea== true)
         {
-            transform.position = new Vector3(transform.position.x, nowPosi + Mathf.PingPong(Time.time / 3, 10.0f), transform.position.z);        }
+            transform.position = new Vector3(transform.position.x, nowPosi + Mathf.PingPong(Time.time / 1, 20.0f), transform.position.z);        }
     }
 }
